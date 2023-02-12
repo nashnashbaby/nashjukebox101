@@ -1,0 +1,223 @@
+html{
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito&family=Righteous&display=swap');
+body{font-family: 'Fredoka One', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Righteous', cursive;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 90vh;
+  align-items: center;
+}
+.mother{
+  float: left;
+  background-color: #FFFFFF;
+  height: 765px;
+  width: 355px;
+  border: 1px solid none;
+  border-radius: 50px;
+  margin-left: 10%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.artist__image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.status-bar__lefticon{
+  margin-left: 30px;
+}
+.status-bar__search{
+  margin-right: 30px;
+}
+.artist__all{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.artist__info{
+  margin-top: -20px;
+  color: #cdcbcb;
+}
+.playstyle{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.playstyle__Shuffle{
+  height: 46px;
+  width: 120px;
+  background-color: black;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.playstyle__likes{
+  height: 46px;
+  width: 120px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.hearts{
+  margin-right: 10px;
+}
+.numbers{
+  margin-bottom: 2px;
+}
+.music1,.music2,.music3,.music4{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+.music1__info__only,.music2__info__only,.music3__info__only,.music4__info__only{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.music1__artist_title,.music2__artist_title,.music3__artist_title,.music4__artist_title{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: -14px;
+}
+.music1__icon{
+  margin-left: 80px;
+  color: #cdcbcb;
+}
+.music2__icon{
+  margin-left: 175px;
+  color: #cdcbcb;
+}
+.music3__icon{
+  margin-left: 173px;
+  color: #cdcbcb;
+}
+.music4__icon{
+  margin-left: 116px;
+  color: #cdcbcb;
+}
+.blackbox{
+  height: 70px;
+  width: 330px;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 30px;
+  border-radius: 330px 300px;
+}
+.sia{
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 30px;
+  color: #cdcbcb;
+}
+.sia__title{
+  font-size: 13px;
+  margin-left: 30px;
+  margin-top: -13px;
+  color: #FFFFFF;
+}
+.playingnowicons__all{
+  width: 200px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-evenly;
+}
+.father{
+  float: right;
+  background-color: #FFFFFF;
+  height: 765px;
+  width: 355px;
+  border: 1px solid none;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.status-bar2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.status-bar2__lefticon{
+  margin-left: 30px;
+}
+.status-bar2__ellipsis{
+  margin-right: 30px;
+}
+.play{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.play__image__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play__title{
+  margin-top: 40px;
+}
+.play__artist{
+  margin-top: -20px;
+  color: #cdcbcb;
+}
+.playicon{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.playicon__previous,.playicon__playnow,.playicon__next{
+  color: #222222;
+}
+.playicon__replay,.playicon__shuffle{
+  color: #DCDCDC;
+}
+.play__time__run_end{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 6px;
+  margin-bottom: -5px;
+  color: #bbbbbb;
+}
+input[type=range]{
+  width: 85%;
+  height: 10px;
+  padding: 10px;
+  margin-left: 16px;
+}
